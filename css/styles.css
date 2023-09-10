@@ -1,0 +1,225 @@
+:root{
+    --c-primary-light: #FFFFFF;
+    --c-primary: #2E2F42;
+    --c-brand: #404BBF;
+    --c-background: #4D5AE5;
+    --c-primary-tr: #434455;
+    --c-background-light: #F4F4FD;
+}
+
+/* Global */
+body {
+    color: var(--c-primary-tr);
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--c-primary-light) ;
+}
+
+body .logo{
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-button {
+    border: none;
+    cursor: pointer;
+    color: var(--c-primary-light);
+    background-color: var(--c-background);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-button:hover {
+    color: var(--c-primary-light);
+    background-color: var(--c-brand);
+}
+
+.hero-button:focus{
+    background-color: var(--c-brand);
+}
+
+/* Header */
+.logo{
+    color: var(--c-background);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent{
+   color: var(--c-primary);
+}
+
+.nav-link{
+    color: var(--c-primary) ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover{
+    color: var(--c-brand);
+}
+
+.nav-link:focus{
+    color: var(--c-brand);
+}
+
+.address{
+    font-style: normal
+}
+
+.address-link{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover{
+    color: var(--c-brand)
+}
+
+.address-link:focus{
+    color: var(--c-brand);
+}
+
+/* Hero section */
+.hero-section{
+    background-color: var(--c-primary);
+}
+
+.hero-title{
+    color: var(--c-primary-light);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center
+}
+
+/* Advantages section */
+.advantage-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantage-text{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Our Team section */
+.team-section{
+    background-color: var(--c-background-light);
+}
+
+.our-team{
+    color: var(--c-primary);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize
+}
+
+.team-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-text{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.our-team-item{
+    background-color: var(--c-primary-light);
+}
+
+/* Our Portfolio */
+.portfoli-section{
+    background-color: var(--c-primary-light);
+}
+
+.our-portfolio{
+    color: var(--c-primary);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfolio-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer-section{
+    background-color: var(--c-primary);
+}
+
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--c-background);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-accent{
+    color: var(--c-background-light);
+}
+
+.footer-text{
+    color: var(--c-background-light);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
